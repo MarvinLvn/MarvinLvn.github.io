@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2023,May
+date: 2023,Sep
 inline: true
 ---
 
-**[📝 PAPER]** [BabySLM](https://x.com/LavechinMarvin/status/1665771123999473666?s=20) has been accepted at Interspeech 2023!
+**[🎓 Ph.D. defense]** Successfully defended [my thesis](https://osf.io/preprints/psyarxiv/5p8ge/) on September, 2023! Yay!
