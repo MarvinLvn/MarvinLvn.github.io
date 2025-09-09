@@ -100,7 +100,7 @@ Both models seem to do quite well in the single-speaker setting, but what happen
 
 ## Multi speaker training / Single speaker testing
 
-Here, we train our imitation models on Audiocite (100 hours of read speech produced by 8 spekaers). Again, the model is trained to imitate speech either in the MFCC space, or the space defined by wav2vec 2.0's 7th layer. We test them on PB2009 (also used to train the artificial vocal tract).
+Here, we train our imitation models on Audiocite (100 hours of read speech produced by 8 speakers). Again, the model is trained to imitate speech either in the MFCC space, or the space defined by wav2vec 2.0's 7th layer. We test them on PB2009 (also used to train the artificial vocal tract).
 
 <table class="audio-comparison-table">
     <thead>
