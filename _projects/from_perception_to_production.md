@@ -13,8 +13,6 @@ category: work
 </div>
 <div class="caption">Overview of the model.</div>
 
-## From perception to production: how acoustic invariance facilitates articulatory learning
-
 How do infants learn to map variable speech sounds to articulatory movements without instruction? Our self-supervised model tackles this challenge by learning to imitate speech through minimizing distance between input and output speech representations.
 
 We found that intermediate layers of wav2vec 2.0 provide optimal speech representations—balancing phonetic information with speaker invariance. This enables learning human-like articulatory patterns and producing intelligible speech across multiple speakers.
