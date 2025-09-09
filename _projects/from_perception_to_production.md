@@ -11,7 +11,7 @@ category: work
         {% include figure.html path="assets/img/from_perception_to_production/model.png" title="Overview of the model" class="img-fluid rounded" %}
     </div>
 </div>
-<div class="caption">Overview of the model.</div>
+<div class="caption">Overview of our speech imitation model.</div>
 
 How do infants learn to map variable speech sounds to articulatory movements without instruction? Our self-supervised model tackles this challenge by learning to imitate speech through minimizing distance between input and output speech representations.
 
