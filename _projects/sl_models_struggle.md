@@ -2,7 +2,7 @@
 layout: page
 title: "Statistical learning models of early phonetic acquisition struggle with child-centered audio data (2022)"
 img: assets/img/struggle/longforms.png
-importance: 3
+importance: 4
 category: work
 ---
 

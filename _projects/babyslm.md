@@ -2,7 +2,7 @@
 layout: page
 title: "BabySLM: language-acquisition-friendly benchmark of self-supervised spoken language models (2023)"
 img: assets/img/babyslm/babyslm_logo.png
-importance: 1
+importance: 2
 category: work
 ---
 
