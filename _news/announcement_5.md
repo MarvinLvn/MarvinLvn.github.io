@@ -1,9 +1,8 @@
 ---
 layout: post
-date: 2025, March
+date: 2025, Apr
 inline: true
 ---
 
-
-**[📺 Media]** Our research has been featured in a French television documentary ["L'homme à la machine: la mécanique du langage"](https://www.france.tv/documentaires/documentaires-societe/l-homme-a-la-machine/6931309-episode-2-la-mecanique-du-langage.html) (France 2).
-
+**[🤞 Preprint]** [Our comparison of the LENA and ACLEW algorithms to analyze children's language environment across neurodevelopmental profiles](https://bsky.app/profile/marvinlavechin.bsky.social/post/3lmatvp5cac2m) has been submitted to Developmental Science!
+Grateful for this amazing collab. with Lisa Hamrick, Bridgette Kelleher, and Amanda Seidl! 

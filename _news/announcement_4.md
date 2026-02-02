@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2023,Sep
+date: 2025, March
 inline: true
 ---
 
-**[🎓 Ph.D. defense]** Successfully defended [my thesis](https://osf.io/preprints/psyarxiv/5p8ge/) on September, 2023! Yay!
+
+**[📺 Media]** Our research has been featured in a French television documentary ["L'homme à la machine: la mécanique du langage"](https://www.france.tv/documentaires/documentaires-societe/l-homme-a-la-machine/6931309-episode-2-la-mecanique-du-langage.html) (France 2).

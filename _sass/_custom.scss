@@ -27,3 +27,40 @@
   }
 }
 
+/* Hide footer */
+footer {
+  display: none !important;
+}
+
+/* Justify all text content on about page */
+.about article {
+  text-align: justify !important;
+}
+
+/* Keep headings left-aligned */
+.about article h1,
+.about article h2,
+.about article h3 {
+  text-align: left !important;
+}
+
+/* Add spacing between sections */
+.about article h2 {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Reduce space between news and selected publications */
+.news {
+  margin-bottom: 1rem !important;
+}
+
+/* Make publications wider by adjusting Bootstrap columns */
+.publications .col-sm-2.abbr {
+  display: none !important;  /* Hide empty abbreviation column */
+}
+
+.publications .col-sm-8 {
+  max-width: 80% !important;
+  flex: 0 0 100% !important;
+}
