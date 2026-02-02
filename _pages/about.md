@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='http://cpl.mit.edu/'>Computational Psycholinguistics lab, MIT</a>
+subtitle: <a href='https://www.lis-lab.fr/'>CNRS researcher, Laboratoire d'Informatique et Systèmes (LIS)</a>
 
 profile:
   align: right
@@ -16,7 +16,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am currently a Simons postdoctoral fellow in the [Computational Psycholinguistics lab](http://cpl.mit.edu/) at the Massachusetts Institute of Technology (Cambridge, US) under the supervision of [Roger Levy](https://www.mit.edu/~rplevy/) and [Elika Bergelson](https://bergelsonlab.com/bergelson-personal-page.html).
-Formerly, at [Meta AI](https://research.facebook.com/), [LSCP](https://lscp.dec.ens.fr/en) (Paris, France), and [GIPSA](https://www.gipsa-lab.grenoble-inp.fr/) (Grenoble, France).
+I am a CNRS researcher at the Laboratoire d'Informatique et Systèmes (LIS), Marseille, France.
+Formerly, at: 
+- The [Computational Psycholinguistics lab](http://cpl.mit.edu/) at MIT and the [Bergelson lab](https://bergelsonlab.fas.harvard.edu/) at Harvard (Cambridge, US) as a postdoc.
+- [GIPSA](https://www.gipsa-lab.grenoble-inp.fr/) (Grenoble, France) as a postdoc.
+- [Meta AI](https://research.facebook.com/) and [Laboratoire de Sciences Cog](https://lscp.dec.ens.fr/en) (Paris, France) as a PhD student.
 
 My work is at the intersection of **Artificial Intelligence** and **Cognitive Sciences**. In my interdisciplinary research program, I study language development in infants and machines. In particular, my research articulates along two major axes: 1) developing and democratizing artificial neural networks to automatically analyze children’s language environment and linguistic production (supervised learning) and 2) running human-inspired computer simulations of language development to build more efficient algorithms and identify mechanisms driving language acquisition in infants (unsupervised/self-supervised learning).
