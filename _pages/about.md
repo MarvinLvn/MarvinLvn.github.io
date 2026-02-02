@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.lis-lab.fr/'>CNRS researcher<br>Laboratoire d'Informatique et Systèmes (LIS)</a>
+subtitle: <a href='https://www.lis-lab.fr/'>CNRS researcher, Laboratoire d'Informatique et Systèmes (LIS)</a>
 
 profile:
   align: right
