@@ -11,11 +11,12 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-target-blank'
-    gem 'jekyll-twitter-plugin'
+    # gem 'jekyll-twitter-plugin'  # Commented out - not compatible with Ruby 4.0
     gem 'jemoji'
     #gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'ostruct'  # Required for Ruby 4.0 compatibility
 end
 group :other_plugins do
     gem 'httparty'

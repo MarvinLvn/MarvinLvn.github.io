@@ -15,3 +15,15 @@
     height: 100%;
   }
 }
+
+// Justify text in about page
+.post {
+  text-align: justify;
+  text-justify: inter-word;
+
+  // Keep lists left-aligned
+  ul, ol {
+    text-align: left;
+  }
+}
+

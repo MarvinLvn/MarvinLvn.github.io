@@ -21,6 +21,14 @@ If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
+## ML2ML
+
+```shell
+bundle install
+bundle exec jekyll serve --livereload
+```
+
+Then open browser to http://localhost:4000
 
 ## User community
 
