@@ -6,28 +6,33 @@ importance: 1
 category: work
 ---
 
-## What is BabAR?
-Understanding how children learn to speak requires analyzing the sounds they producen, but doing this by hand is extremely time-consuming, limiting most studies to small samples. 
+## 1. What is BabAR?
+
+Understanding how children learn to speak requires analyzing the sounds they produce, but doing this by hand is extremely time-consuming, limiting most studies to small samples. 
 BabAR (Babbling Automatic Recognition) is an open-source tool that automatically transcribes young children's vocalizations into International Phonetic Alphabet (IPA) symbols, the standard notation used by linguists to represent speech sounds.
 
-## BabAR in action
+Analyzing a child's speech from a daylong recording is a two-step process. First, we need to figure out *when* the child is speaking. Daylong recordings contain hours of audio where most of the time the child is silent, and other people (parents, siblings) are talking. For this, we use [VTC](https://github.com/MarvinLvn/voice-type-classifier) (Voice Type Classifier), a neural network that scans the audio and detects segments where the target child is vocalizing. Second, once we have those segments, BabAR takes over and transcribes them into IPA phonemes.
+
+**Paper:** *BabAR: from phoneme recognition to developmental measures of young children's speech production* (submitted to Interspeech 2026)
+
+## 2. BabAR in action
 
 Here's a video example of BabAR's predictions on a recording collected using a child-worn microphone (LENA®): 
 
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <video width="60%" controls>
-            <source src="{{ '/assets/audio/babar/babar_final.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video element.
-        </video>
-    </div>
+<div style="text-align: center;">
+<video width="90%" controls>
+    <source src="/assets/audio/babar/babar_final.mp4" type="video/mp4">
+    Your browser does not support the video element.
+</video>
 </div>
 
-## Listening to development
+## 3. Listening to development
 
 Below are vocalizations randomly sampled from the same child recorded at three different ages: 6, 12, and 17 months from the SEEDLingS dataset. 
 For each sample, we show BabAR's predicted IPA transcription.
+
+BabAR sometimes returns an empty prediction. This can happen when VTC detects very short segments that don't contain enough acoustic information for BabAR to identify any phoneme, or when the child produces non-speech vocalizations (cries, laughs, vegetative sounds) that do not map onto phonemic categories.
+Additionally, VTC can occasionally misattribute an older sibling's speech to the target child. The last sample at 17 months (*m ɑ m i j u k ɛ n f a ɪ n d ɔ ɹ r d*, i.e. "mommy you can find...") is an example of this: a sibling's utterance incorrectly detected as the target child's.
 
 <table class="audio-table">
     <thead>
