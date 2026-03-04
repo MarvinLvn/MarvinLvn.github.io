@@ -17,7 +17,7 @@ Analyzing a child's speech from a daylong recording is a two-step process. First
 
 ## 2. BabAR in action
 
-Here's a video example of BabAR's predictions on a recording collected using a child-worn microphone (LENA®): 
+Here's a video example of BabAR's predictions on a recording collected using a child-worn microphone: 
 
 <div style="text-align: center;">
 <video width="90%" controls>
