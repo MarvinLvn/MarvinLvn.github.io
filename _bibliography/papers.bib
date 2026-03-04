@@ -1,5 +1,28 @@
 ---
 ---
+@article{li2026automated,
+  title={Automated Analysis of Naturalistic Recordings in Early Childhood: Applications, challenges, and opportunities},
+  author={Li, Jialu and Lavechin, Marvin and Fan, Xulin and McElwain, Nancy L and Cristia, Alejandrina and Garcia-Perera, Paola and Hasegawa-Johnson, Mark A},
+  journal={IEEE Signal Processing Magazine},
+  volume={42},
+  number={6},
+  pages={16--34},
+  year={2026},
+  abstract={Naturalistic recordings capture audio in real-world environments where participants behave naturally without interference from researchers or experimental protocols. Naturalistic long-form recordings extend this concept by capturing spontaneous and continuous interactions over extended periods, often spanning hours or even days, in participants' daily lives. Naturalistic recordings have been extensively used to study children's behaviors, including how they interact with others in their environment, in the fields of psychology, education, cognitive science, and clinical research. These recordings provide an unobtrusive way to observe children in real-world settings beyond controlled and constrained experimental environments. Advancements in speech technology and machine learning have provided an initial step for researchers to automatically and systematically analyze large-scale naturalistic recordings of children. Despite the imperfect accuracy of machine learning models, these tools still offer valuable opportunities to uncover important insights into children's cognitive and social development. Several critical speech technologies involved include speaker diarization, vocalization classification, word count estimate from adults, speaker verification, and language diarization for code-switching. Most of these technologies have been primarily developed for adults, and speech technologies applied to children specifically are still vastly under-explored. To fill this gap, we discuss current progress, challenges, and opportunities in advancing these technologies to analyze naturalistic recordings of children during early development (<3 years of age). We strive to inspire the signal processing community and foster interdisciplinary collaborations to further develop this emerging technology and address its unique challenges and opportunities.},
+  publisher={IEEE}
+}
+
+@inproceedings{lavechin2025perception,
+  title={From perception to production: how acoustic invariance facilitates articulatory learning in a self-supervised vocal imitation model},
+  author={Lavechin, Marvin and Hueber, Thomas},
+  booktitle={Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing},
+  pages={23863--23874},
+  year={2025},
+  abstract={Human infants face a formidable challenge in speech acquisition: mapping extremely variable acoustic inputs into appropriate articulatory movements without explicit instruction. We present a computational model that addresses the acoustic-to-articulatory mapping problem through self-supervised learning. Our model comprises a feature extractor that transforms speech into latent representations, an inverse model that maps these representations to articulatory parameters, and a synthesizer that generates speech outputs. Experiments conducted in both single- and multi-speaker settings reveal that intermediate layers of a pre-trained wav2vec 2.0 model provide optimal representations for articulatory learning, significantly outperforming MFCC features. These representations enable our model to learn articulatory trajectories that correlate with human patterns, discriminate between places of articulation, and produce intelligible speech. Critical to successful articulatory learning are representations that balance phonetic discriminability with speaker invariance -- precisely the characteristics of self-supervised representation learning models. Our findings provide computational evidence consistent with developmental theories proposing that perceptual learning of phonetic categories guides articulatory development, offering insights into how infants might acquire speech production capabilities despite the complex mapping problem they face.},
+  pdf={https://arxiv.org/abs/2509.05849}
+}
+
+
 
 @article{lavechin2025simulating,
   title={Simulating Early Phonetic and Word Learning Without Linguistic Categories},
@@ -11,6 +34,7 @@
   year={2025},
   publisher={Wiley Online Library},
   selected={true},
+  abstract={Before they even talk, infants become sensitive to the speech sounds of their native language and recognize the auditory form of an increasing number of words. Traditionally, these early perceptual changes are attributed to an emerging knowledge of linguistic categories such as phonemes or words. However, there is growing skepticism surrounding this interpretation due to limited evidence of category knowledge in infants. Previous modeling work has shown that a distributional learning algorithm could reproduce perceptual changes in infants' early phonetic learning without acquiring phonetic categories. Taking this inquiry further, we propose that linguistic categories may not be needed for early word learning. We introduce STELA, a predictive coding algorithm designed to extract statistical patterns from continuous raw speech data. Our findings demonstrate that STELA can reproduce some developmental patterns of phonetic and word form learning without relying on linguistic categories such as phonemes or words nor requiring explicit word segmentation. Through an analysis of the learned representations, we show evidence that linguistic categories may emerge as an end product of learning rather than being prerequisites during early language acquisition.},
   pdf={https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://osf.io/xgcrb_v1/download&ved=2ahUKEwihxP6Tm8mMAxXwFVkFHSRmOoIQFnoECCYQAQ&usg=AOvVaw3VKbni8GthShZ9-lLPLcdI}
 }
 
@@ -22,6 +46,7 @@
   pages={106044},
   year={2025},
   publisher={Elsevier},
+  abstract={Researchers have hypothesized that infant language learning starts from the third trimester of pregnancy. This is supported by studies with fetuses and newborns showing discrimination/preference for their native language. Jointly with empirical research, initial computational modeling studies have investigated whether learning language patterns from speech input benefits from auditory prenatal language exposure (PLE), showing some advantages for prior adaptation to speech-like patterns. However, these modeling studies have not modeled prenatal speech input in an ecologically representative manner regarding quality or quantity. This study describes an ecologically representative framework for modeling PLE for full-term and preterm infants. The approach is based on empirical estimates of the amount of prenatal speech input together with a model of speech signal attenuation from the external air to the fetus’ auditory system. Using this framework, we conduct language learning simulations with computational models that learn from acoustic speech input in an unsupervised manner. We compare the effects of PLE to standard learning from only postnatal input on various early language phenomena. The results show how incorporating PLE can affect models’ learning outcomes, including differences between full-term and preterm conditions. Moreover, PLE duration might influence model behavior, depending on the linguistic capability being tested. While the inclusion of PLE did not improve the compatibility of the tested models with empirical infant data, our study highlights the relevance of PLE as a factor in modeling studies. Moreover, it provides a basic framework for modeling the prenatal period in future computational studies.},
   pdf={https://www.sciencedirect.com/science/article/pii/S0010027724003305}
 }
 
@@ -33,6 +58,7 @@
   number={1},
   year={2024},
   selected={true},
+  abstract={What are the necessary conditions to acquire language? Do infants rely on simple statistical mechanisms, or do they come pre-wired with innate capabilities allowing them to learn their native language(s)? Previous modeling studies have shown that unsupervised learning algorithms could reproduce some aspects of infant phonetic learning. Despite these successes, algorithms still fail to reproduce the learning trajectories observed in infants. Here, we advocate that this failure is partly due to a wrong initial state. Contrary to infants, unsupervised learning algorithms start with little to no prior knowledge of speech sounds. In this work, we propose a modeling approach to investigate the relative contribution of innate factors and language experience in infant speech perception. Our approach allows us to investigate theories hypothesizing a more significant role of innate factors, offering new modeling opportunities for studying infant language acquisition.},
   pdf={https://hal.science/hal-04869642v1/file/ldr-717-poli.pdf}
 }
 
@@ -45,6 +71,7 @@
   pages={8588--8607},
   year={2024},
   publisher={Springer},
+  abstract={Long-form audio recordings are increasingly used to study individual variation, group differences, and many other topics in theoretical and applied fields of developmental science, particularly for the description of children’s language input (typically speech from adults) and children’s language output (ranging from babble to sentences). The proprietary LENA software has been available for over a decade, and with it, users have come to rely on derived metrics like adult word count (AWC) and child vocalization counts (CVC), which have also more recently been derived using an open-source alternative, the ACLEW pipeline. Yet, there is relatively little work assessing the reliability of long-form metrics in terms of the stability of individual differences across time. Filling this gap, we analyzed eight spoken-language datasets: four from North American English-learning infants, and one each from British English-, French-, American English-/Spanish-, and Quechua-/Spanish-learning infants. The audio data were analyzed using two types of processing software: LENA and the ACLEW open-source pipeline. When all corpora were included, we found relatively low to moderate reliability (across multiple recordings, intraclass correlation coefficient attributed to the child identity [Child ICC], was < 50% for most metrics). There were few differences between the two pipelines. Exploratory analyses suggested some differences as a function of child age and corpora. These findings suggest that, while reliability is likely sufficient for various group-level analyses, caution is needed when using either LENA or ACLEW tools to study individual variation. We also encourage improvement of extant tools, specifically targeting accurate measurement of individual variation.},
   pdf={https://osf.io/preprints/psyarxiv/vufw4_v1}
 }
 
@@ -59,6 +86,7 @@
   year={2024},
   publisher={MIT Press 255 Main Street, 9th Floor, Cambridge, Massachusetts 02142, USA},
   selected={true},
+  abstract={Speech learning encompasses mastering a complex motor system to produce speech sounds from articulatory gestures while simultaneously uncovering discrete units that provide entry to the linguistic system. Remarkably, children acquire these associations between speech sounds, articulatory gestures, and linguistic units in a weakly supervised manner, without the need for explicit labeling of auditory inputs or access to target articulatory gestures. This study uses self-supervised deep learning to investigate the respective roles of sounds, gestures, and linguistic units in speech acquisition and control. In a first experiment, we analyzed the quantized representations learned by vector-quantized variational autoencoders (VQ-VAE) from ground truth acoustic and articulatory data using ABX tests. We show an interesting complementarity between acoustic and articulatory modalities that may help in the discovery of phonemes. In a second experiment, we introduce a computational agent that repeats auditory speech inputs by controlling a virtual vocal apparatus. This agent integrates an articulatory synthesizer capable of reproducing diverse speech stimuli from interpretable parameters, along with two internal models implementing the articulatory-to-acoustic (forward) and acoustic-to-articulatory (inverse) mapping, respectively. Additionally, two inductive biases are used to regularize the ill-posed acoustic-to-articulatory inverse mapping. In line with the first experiment, we explore the complementarity between the auditory input and the articulatory parameters inferred by the agent. We also evaluate the impact of discretizing auditory inputs using VQ-VAE. While the majority of the agent’s productions are intelligible (according to perceptual evaluations), our analysis highlights inconsistencies in the underlying articulatory trajectories. In particular, we show that the agent’s productions only partially reproduce the complementarity between the auditory and articulatory modalities observed in humans.},
   pdf={https://direct.mit.edu/coli/article/50/4/1345/123788/Decode-Move-and-Speak-Self-supervised-Learning-of}
 }
 
@@ -71,6 +99,7 @@
   year={2024},
   publisher={Elsevier},
   selected={true},
+  abstract={Infants learn their native language(s) at an amazing speed. Before they even talk, their perception adapts to the language(s) they hear. However, the mechanisms responsible for this perceptual attunement and the circumstances in which it takes place remain unclear. This paper presents the first attempt to study perceptual attunement using ecological child-centered audio data. We show that a simple prediction algorithm exhibits perceptual attunement when applied on unrealistic clean audio-book data, but fails to do so when applied on ecologically-valid child-centered data. In the latter scenario, perceptual attunement only emerges when the prediction mechanism is supplemented with inductive biases that force the algorithm to focus exclusively on speech segments while learning speaker-, pitch-, and room-invariant representations. We argue these biases are plausible given previous research on infants and non-human animals. More generally, we show that what our model learns and how it develops through exposure to speech depends exquisitely on the details of the input signal. By doing so, we illustrate the importance of considering ecologically valid input data when modeling language acquisition.},
   pdf={https://osf.io/hav58_v1}
 }
 
@@ -81,6 +110,7 @@
   pages={4618--4622},
   year={2023},
   organization={ISCA},
+  abstract={Standard ways to measure child language development from spontaneous corpora rely on detailed linguistic descriptions of a language as well as exhaustive transcriptions of the child’s speech, which today can only be done through costly human labor. We tackle both issues by proposing (1) a new language development metric (based on entropy) that does not require linguistic knowledge other than having a corpus of text in the language in question to train a language model, (2) a method to derive this metric directly from speech based on a smaller text-speech parallel corpus. Here, we present descriptive results on an open archive including data from six English-learning children as a proof of concept. We document that our entropy metric documents a gradual convergence of children’s speech towards adults’ speech as a function of age, and it also correlates moderately with lexical and morphosyntactic measures derived from morphologically-parsed transcriptions. The source code of the experiments is released at https://github.com/yaya-sy/EntropyBasedCLDMetrics},
   pdf={https://www.isca-archive.org/interspeech_2023/sy23_interspeech.pdf}
 }
 
@@ -108,25 +138,6 @@
   blog={https://twitter.com/LavechinMarvin/status/1585645131251605504?s=20&t=jpkPzVjWFAs9horYBrDyyw},
 }
 
-@article{renglongform,
-  title={Reverse engineering language acquisition with child-centered long-form recordings},
-  author={Lavechin, Marvin and de Seyssel, Maureen and Gautheron, Lucas and Dupoux, Emmanuel and Cristia, Alejandrina},
-  journal={Annual Review of Linguistics},
-  year={2022},
-  abstract = {Language use in everyday life can be studied using lightweight, wearable recorders that collect long-form recordings - that is, audio (including speech) over whole days. The hardware and software underlying this technique is increasingly accessible and inexpensive, and these data are revolutionizing the language acquisition field. We first place this technique into the broader context of the current ways of studying both the input being received by children and children’s own language production, laying out the main advantages and drawbacks of long-form recordings. We then go on to argue that a unique advantage of long-form recordings is that they can fuel realistic models of early language acquisition that use speech to represent children's input and/or to establish production benchmarks. To enable the field to make the most of this unique empirical and conceptual contribution, we outline what this reverse engineering approach from long-form recordings entails, why it is useful, and how to evaluate success.},
-  pdf={https://psyarxiv.com/pt9xq/},
-}
-
-@article{vtc,
-  title={An open-source voice type classifier for child-centered daylong recordings},
-  author={Lavechin, Marvin and Bousbib, Ruben and Bredin, Herv{\'e} and Dupoux, Emmanuel and Cristia, Alejandrina},
-  journal={Interspeech},
-  year={2020},
-  abstract = {Spontaneous conversations in real-world settings such as those found in child-centered recordings have been shown to be amongst the most challenging audio files to process. Nevertheless, building speech processing models handling such a wide variety of conditions would be particularly useful for language acquisition studies in which researchers are interested in the quantity and quality of the speech that children hear and produce, as well as for early diagnosis and measuring effects of remediation. In this paper, we present our approach to designing an open-source neural network to classify audio segments into vocalizations produced by the child wearing the recording device, vocalizations produced by other children, adult male speech, and adult female speech. To this end, we gathered diverse child-centered corpora which sums up to a total of 260 hours of recordings and covers 10 languages. Our model can be used as input for downstream tasks such as estimating the number of words produced by adult speakers, or the number of linguistic units produced by children. Our architecture combines SincNet filters with a stack of recurrent layers and outperforms by a large margin the state-of-the-art system, the Language ENvironment Analysis (LENA) that has been used in numerous child language studies.},
-  pdf={https://arxiv.org/abs/2005.12656},
-  code={https://github.com/MarvinLvn/voice-type-classifier},
-}
-
 @article{de2023realistic,
   title={Realistic and broad-scope learning simulations: first results and challenges},
   author={de Seyssel, Maureen and Lavechin, Marvin and Dupoux, Emmanuel},
@@ -148,17 +159,22 @@
   pdf={https://arxiv.org/abs/2302.12057}
 }
 
+@article{de2022probing,
+  title={Probing phoneme, language and speaker information in unsupervised speech representations},
+  author={de Seyssel, Maureen and Lavechin, Marvin and Adi, Yossi and Dupoux, Emmanuel and Wisniewski, Guillaume},
+  journal={Interspeech},
+  year={2022},
+  pdf={https://arxiv.org/abs/2203.16193},
+  abstract={Unsupervised models of representations based on Contrastive Predictive Coding (CPC)[1] are primarily used in spoken language modelling in that they encode phonetic information. In this study, we ask what other types of information are present in CPC speech representations. We focus on three categories: phone class, gender and language, and compare monolingual and bilingual models. Using qualitative and quantitative tools, we find that both gender and phone class information are present in both types of models. Language information, however, is very salient in the bilingual model only, suggesting CPC models learn to discriminate languages when trained on multiple languages. Some language information can also be retrieved from monolingual models, but it is more diffused across all features. These patterns hold when analyses are carried on the discrete units from a downstream clustering model. However, although there is no effect of the number of target clusters on phone class and language information, more gender information is encoded with more clusters. Finally, we find that there is some cost to being exposed to two languages on a downstream phoneme discrimination task.},
+}
 
-@inproceedings{bredin2020pyannote,
-  title={Pyannote.audio: neural building blocks for speaker diarization},
-  author={Bredin, Herv{\'e} and Yin, Ruiqing and Coria, Juan Manuel and Gelly, Gregory and Korshunov, Pavel and Lavechin, Marvin and Fustes, Diego and Titeux, Hadrien and Bouaziz, Wassim and Gill, Marie-Philippe},
-  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
-  pages={7124--7128},
-  year={2020},
-  organization={IEEE},
-  abstract={We introduce pyannote. audio, an open-source toolkit written in Python for speaker diarization. Based on PyTorch machine learning framework, it provides a set of trainable end-to-end neural building blocks that can be combined and jointly optimized to build speaker diarization pipelines. pyannote. audio also comes with pre-trained models covering a wide range of domains for voice activity detection, speaker change detection, overlapped speech detection, and speaker embedding-reaching state-of-the-art performance for most of them.},
-  pdf={https://arxiv.org/abs/1911.01255},
-  code={https://github.com/pyannote/pyannote-audio}
+@article{renglongform,
+  title={Reverse engineering language acquisition with child-centered long-form recordings},
+  author={Lavechin, Marvin and de Seyssel, Maureen and Gautheron, Lucas and Dupoux, Emmanuel and Cristia, Alejandrina},
+  journal={Annual Review of Linguistics},
+  year={2022},
+  abstract = {Language use in everyday life can be studied using lightweight, wearable recorders that collect long-form recordings - that is, audio (including speech) over whole days. The hardware and software underlying this technique is increasingly accessible and inexpensive, and these data are revolutionizing the language acquisition field. We first place this technique into the broader context of the current ways of studying both the input being received by children and children’s own language production, laying out the main advantages and drawbacks of long-form recordings. We then go on to argue that a unique advantage of long-form recordings is that they can fuel realistic models of early language acquisition that use speech to represent children's input and/or to establish production benchmarks. To enable the field to make the most of this unique empirical and conceptual contribution, we outline what this reverse engineering approach from long-form recordings entails, why it is useful, and how to evaluate success.},
+  pdf={https://psyarxiv.com/pt9xq/},
 }
 
 @article{cristia2021thorough,
@@ -172,17 +188,6 @@
   publisher={Springer},
   abstract = {In the previous decade, dozens of studies involving thousands of children across several research disciplines have made use of a combined daylong audio-recorder and automated algorithmic analysis called the LENA® system, which aims to assess children’s language environment. While the system’s prevalence in the language acquisition domain is steadily growing, there are only scattered validation efforts, on only some of its key characteristics. Here, we assess the LENA® system’s accuracy across all of its key measures: speaker classification, Child Vocalization Counts (CVC), Conversational Turn Counts (CTC), and Adult Word Counts (AWC). Our assessment is based on manual annotation of clips that have been randomly or periodically sampled out of daylong recordings, collected from (a) populations similar to the system’s original training data (North American English-learning children aged 3-36 months), (b) children learning another dialect of English (UK), and (c) slightly older children growing up in a different linguistic and socio-cultural setting (Tsimane’ learners in rural Bolivia). We find reasonably high accuracy in some measures (AWC, CVC), with more problematic levels of performance in others (CTC, precision of male adults and other children). Statistical analyses do not support the view that performance is worse for children who are dissimilar from the LENA® original training set. Whether LENA® results are accurate enough for a given research, educational, or clinical application depends largely on the specifics at hand. We therefore conclude with a set of recommendations to help researchers make this determination for their goals.},
   pdf={https://link.springer.com/article/10.3758/s13428-020-01393-5}
-}
-
-@article{lavechin2019end,
-  title={End-to-end domain-adversarial voice activity detection},
-  author={Lavechin, Marvin and Gill, Marie-Philippe and Bousbib, Ruben and Bredin, Herv{\'e} and Garcia-Perera, Leibny Paola},
-  journal={Interspeech},
-  year={2020},
-  abstract = {value},
-  pdf = {https://arxiv.org/pdf/1910.10655.pdf},
-  abstract = {Voice activity detection is the task of detecting speech regions in a given audio stream or recording. First, we design a neural network combining trainable filters and recurrent layers to tackle voice activity detection directly from the waveform. Experiments on the challenging DIHARD dataset show that the proposed end-to-end model reaches state-of-the-art performance and outperforms a variant where trainable filters are replaced by standard cepstral coefficients. Our second contribution aims at making the proposed voice activity detection model robust to domain mismatch. To that end, a domain classification branch is added to the network and trained in an adversarial manner. The same DIHARD dataset, drawn from 11 different domains is used for evaluation under two scenarios. In the in-domain scenario where the training and test sets cover the exact same domains, we show that the domain-adversarial approach does not degrade performance of the proposed end-to-end model. In the out-domain scenario where the test domain is different from training domains, it brings a relative improvement of more than 10%. Finally, our last contribution is the provision of a fully reproducible open-source pipeline than can be easily adapted to other datasets.},
-  code={https://github.com/hbredin/DomainAdversarialVoiceActivityDetection},
 }
 
 @article{rasanen2021alice,
@@ -199,15 +204,6 @@
   pdf = {https://link.springer.com/article/10.3758/s13428-020-01460-x},
 }
 
-@article{garcia2019speaker,
-  title={Speaker detection in the wild: Lessons learned from JSALT 2019},
-  author={Garc{\'\i}a, Paola and Villalba, Jesus and Bredin, Herv{\'e} and Du, Jun and Castan, Diego and Cristia, Alejandrina and Bullock, Latane and Guo, Ling and Okabe, Koji and Nidadavolu, Phani Sankar and others},
-  journal={Odyssey},
-  year={2020},
-  abstract = {This paper presents the problems and solutions addressed at the JSALT workshop when using a single microphone for speaker detection in adverse scenarios. The main focus was to tackle a wide range of conditions that go from meetings to wild speech. We describe the research threads we explored and a set of modules that was successful for these scenarios. The ultimate goal was to explore speaker detection; but our first finding was that an e ective diarization improves detection, and not having a diarization stage impoverishes the performance. All the di erent configurations of our research agree on this fact and follow a main backbone that includes diarization as a previous stage. With this backbone, we analyzed the following problems: voice activity detection, how to deal with noisy signals, domain mismatch, how to improve the clustering; and the overall impact of previous stages in the final speaker detection. In this paper, we show partial results for speaker diarizarion to have a better understanding of the problem and we present the final results for speaker detection.},
-  pdf = {https://arxiv.org/pdf/1912.00938.pdf},
-}
-
 @article{alishahi2021zr,
   title={ZR-2021VG: Zero-Resource Speech Challenge, Visually-Grounded Language Modelling track},
   author={Alishahi, Afra and Chrupa{\l}a, Grzegorz and Cristi{\`a}, Alejandrina and Dupoux, Emmanuel and Higy, Bertrand and Lavechin, Marvin and R{\"a}s{\"a}nen, Okko and Yu, Chen},
@@ -217,13 +213,46 @@
   abstract={We present the visually-grounded language modelling track that was introduced in the Zero-Resource Speech challenge, 2021 edition, 2nd round. We motivate the new track and discuss participation rules in detail. We also present the two baseline systems that were developed for this track. }
 }
 
-@article{de2022probing,
-  title={Probing phoneme, language and speaker information in unsupervised speech representations},
-  author={de Seyssel, Maureen and Lavechin, Marvin and Adi, Yossi and Dupoux, Emmanuel and Wisniewski, Guillaume},
+@article{vtc,
+  title={An open-source voice type classifier for child-centered daylong recordings},
+  author={Lavechin, Marvin and Bousbib, Ruben and Bredin, Herv{\'e} and Dupoux, Emmanuel and Cristia, Alejandrina},
   journal={Interspeech},
-  year={2022},
-  pdf={https://arxiv.org/abs/2203.16193},
-  abstract={Unsupervised models of representations based on Contrastive Predictive Coding (CPC)[1] are primarily used in spoken language modelling in that they encode phonetic information. In this study, we ask what other types of information are present in CPC speech representations. We focus on three categories: phone class, gender and language, and compare monolingual and bilingual models. Using qualitative and quantitative tools, we find that both gender and phone class information are present in both types of models. Language information, however, is very salient in the bilingual model only, suggesting CPC models learn to discriminate languages when trained on multiple languages. Some language information can also be retrieved from monolingual models, but it is more diffused across all features. These patterns hold when analyses are carried on the discrete units from a downstream clustering model. However, although there is no effect of the number of target clusters on phone class and language information, more gender information is encoded with more clusters. Finally, we find that there is some cost to being exposed to two languages on a downstream phoneme discrimination task.},
+  year={2020},
+  abstract = {Spontaneous conversations in real-world settings such as those found in child-centered recordings have been shown to be amongst the most challenging audio files to process. Nevertheless, building speech processing models handling such a wide variety of conditions would be particularly useful for language acquisition studies in which researchers are interested in the quantity and quality of the speech that children hear and produce, as well as for early diagnosis and measuring effects of remediation. In this paper, we present our approach to designing an open-source neural network to classify audio segments into vocalizations produced by the child wearing the recording device, vocalizations produced by other children, adult male speech, and adult female speech. To this end, we gathered diverse child-centered corpora which sums up to a total of 260 hours of recordings and covers 10 languages. Our model can be used as input for downstream tasks such as estimating the number of words produced by adult speakers, or the number of linguistic units produced by children. Our architecture combines SincNet filters with a stack of recurrent layers and outperforms by a large margin the state-of-the-art system, the Language ENvironment Analysis (LENA) that has been used in numerous child language studies.},
+  pdf={https://arxiv.org/abs/2005.12656},
+  code={https://github.com/MarvinLvn/voice-type-classifier},
+}
+
+@inproceedings{bredin2020pyannote,
+  title={Pyannote.audio: neural building blocks for speaker diarization},
+  author={Bredin, Herv{\'e} and Yin, Ruiqing and Coria, Juan Manuel and Gelly, Gregory and Korshunov, Pavel and Lavechin, Marvin and Fustes, Diego and Titeux, Hadrien and Bouaziz, Wassim and Gill, Marie-Philippe},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={7124--7128},
+  year={2020},
+  organization={IEEE},
+  abstract={We introduce pyannote. audio, an open-source toolkit written in Python for speaker diarization. Based on PyTorch machine learning framework, it provides a set of trainable end-to-end neural building blocks that can be combined and jointly optimized to build speaker diarization pipelines. pyannote. audio also comes with pre-trained models covering a wide range of domains for voice activity detection, speaker change detection, overlapped speech detection, and speaker embedding-reaching state-of-the-art performance for most of them.},
+  pdf={https://arxiv.org/abs/1911.01255},
+  code={https://github.com/pyannote/pyannote-audio}
+}
+
+@article{lavechin2019end,
+  title={End-to-end domain-adversarial voice activity detection},
+  author={Lavechin, Marvin and Gill, Marie-Philippe and Bousbib, Ruben and Bredin, Herv{\'e} and Garcia-Perera, Leibny Paola},
+  journal={Interspeech},
+  year={2020},
+  abstract = {value},
+  pdf = {https://arxiv.org/pdf/1910.10655.pdf},
+  abstract = {Voice activity detection is the task of detecting speech regions in a given audio stream or recording. First, we design a neural network combining trainable filters and recurrent layers to tackle voice activity detection directly from the waveform. Experiments on the challenging DIHARD dataset show that the proposed end-to-end model reaches state-of-the-art performance and outperforms a variant where trainable filters are replaced by standard cepstral coefficients. Our second contribution aims at making the proposed voice activity detection model robust to domain mismatch. To that end, a domain classification branch is added to the network and trained in an adversarial manner. The same DIHARD dataset, drawn from 11 different domains is used for evaluation under two scenarios. In the in-domain scenario where the training and test sets cover the exact same domains, we show that the domain-adversarial approach does not degrade performance of the proposed end-to-end model. In the out-domain scenario where the test domain is different from training domains, it brings a relative improvement of more than 10%. Finally, our last contribution is the provision of a fully reproducible open-source pipeline than can be easily adapted to other datasets.},
+  code={https://github.com/hbredin/DomainAdversarialVoiceActivityDetection},
+}
+
+@article{garcia2019speaker,
+  title={Speaker detection in the wild: Lessons learned from JSALT 2019},
+  author={Garc{\'\i}a, Paola and Villalba, Jesus and Bredin, Herv{\'e} and Du, Jun and Castan, Diego and Cristia, Alejandrina and Bullock, Latane and Guo, Ling and Okabe, Koji and Nidadavolu, Phani Sankar and others},
+  journal={Odyssey},
+  year={2020},
+  abstract = {This paper presents the problems and solutions addressed at the JSALT workshop when using a single microphone for speaker detection in adverse scenarios. The main focus was to tackle a wide range of conditions that go from meetings to wild speech. We describe the research threads we explored and a set of modules that was successful for these scenarios. The ultimate goal was to explore speaker detection; but our first finding was that an e ective diarization improves detection, and not having a diarization stage impoverishes the performance. All the di erent configurations of our research agree on this fact and follow a main backbone that includes diarization as a previous stage. With this backbone, we analyzed the following problems: voice activity detection, how to deal with noisy signals, domain mismatch, how to improve the clustering; and the overall impact of previous stages in the final speaker detection. In this paper, we show partial results for speaker diarizarion to have a better understanding of the problem and we present the final results for speaker detection.},
+  pdf = {https://arxiv.org/pdf/1912.00938.pdf},
 }
 
 @inproceedings{gautheron2020longform,
