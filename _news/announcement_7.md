@@ -4,7 +4,7 @@ date: 2026, Mar
 inline: true
 ---
 
-**[🐘 Tool]** Very excited to release BabAR (for Babbling Automatic Recognition), an open-source algorithm to transcribe young children's speech into IPA sounds! Check out the demo video below and more audio samples on the [project page](/projects/babar/).
+**[🐘 Tool]** Very excited to release BabAR (Babbling Automatic Recognition), an open-source algorithm to transcribe young children's speech into IPA sounds! Check out the demo video below and more audio samples on the [project page](/projects/babar/).
 
 <div style="text-align: center;">
 <video width="80%" controls>
