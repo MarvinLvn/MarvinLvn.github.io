@@ -33,7 +33,7 @@ Here's a video example of BabAR's predictions on a recording collected using a c
 Below are vocalizations randomly sampled from the same child recorded at three different ages: 6, 12, and 17 months from the SEEDLingS dataset. 
 For each sample, we show BabAR's predicted IPA transcription.
 
-BabAR sometimes returns an empty prediction. This can happen when VTC detects very short segments that don't contain enough acoustic information for BabAR to identify any phoneme, or when the child produces non-speech vocalizations (cries, laughs, vegetative sounds) that do not map onto phonemic categories.
+A few things to note: BabAR sometimes returns an empty prediction. This can happen when VTC detects very short segments that don't contain enough acoustic information for BabAR to identify any phoneme, or when the child produces non-speech vocalizations (cries, laughs, vegetative sounds) that do not map onto phonemic categories.
 Additionally, VTC can occasionally misattribute an older sibling's speech to the target child. The last sample at 17 months (*m ɑ m i j u k ɛ n f a ɪ n d ɔ ɹ r d*, i.e. "mommy you can find...") is an example of this: a sibling's utterance incorrectly detected as the target child's.
 
 <table class="audio-table">
