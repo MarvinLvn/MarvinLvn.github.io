@@ -133,7 +133,7 @@ Additionally, VTC can occasionally misattribute an older sibling's speech to the
     </tbody>
 </table>
 
-# 4. Acknowledgments
+## 4. Acknowledgments
 
 We acknowledge funding from the Simons Foundation International (funding from The Simons Foundation International (034070-00033) and the National Institutes of Health (NIH, grant number DP5-OD019812). We gratefully acknowledge PhonBank, funded by NIH-NICHD grant RO1-HD051698, and thank the data contributors whose corpora made this research possible. HPC resources from GENCI-IDRIS (Grant 2025-A0181011829). 
 
