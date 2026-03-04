@@ -2,7 +2,7 @@
 layout: page
 title: "From perception to production: how acoustic invariance facilitates articulatory learning in a self-supervised vocal imitation model"
 img: assets/img/from_perception_to_production/model.png
-importance: 1
+importance: 2
 category: work
 ---
 

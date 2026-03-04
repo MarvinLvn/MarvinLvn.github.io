@@ -2,7 +2,7 @@
 layout: page
 title: "Brouhaha: multi-task training for voice activity detection, speech-to-noise ratio, and C50 room acoustics estimation (2023)"
 img: assets/img/brouhaha/brouhaha.png
-importance: 3
+importance: 4
 category: work
 ---
 
