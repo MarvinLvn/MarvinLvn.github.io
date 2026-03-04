@@ -14,13 +14,14 @@ BabAR (Babbling Automatic Recognition) is an open-source tool that automatically
 Analyzing a child's speech from a daylong recording is a two-step process. First, we need to figure out *when* the child is speaking. Daylong recordings contain hours of audio where most of the time the child is silent, and other people (parents, siblings) are talking. For this, we use [VTC](https://github.com/LAAC-LSCP/VTC) (Voice Type Classifier), a neural network that scans the audio and detects segments where the target child is vocalizing. Second, once we have those segments, BabAR takes over and transcribes them into IPA phonemes.
 
 **Paper:** *BabAR: from phoneme recognition to developmental measures of young children's speech production* (submitted to Interspeech 2026)
+
 **Code:** If you'd like to run BabAR on your own data, check out the [GitHub repository](https://github.com/MarvinLvn/BabAR).
 
 ## 2. BabAR in action
 
 Here's a video example of BabAR's predictions on a recording collected using a child-worn microphone: 
 
-<div style="text-align: center;">
+<div style="text-align: center; margin-top: 1.5em; margin-bottom: 1.5em;">
 <video width="90%" controls>
     <source src="/assets/audio/babar/babar_final.mp4" type="video/mp4">
     Your browser does not support the video element.
